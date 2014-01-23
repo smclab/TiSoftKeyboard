@@ -4,7 +4,7 @@
 #
 version: 0.1.0
 apiversion: 2
-description: TiSoftKeyboard enables some important soft keyboard features currently missing from Titanium SDK.
+description: TiSoftKeyboard enables some important soft keyboard features currently missing from Titanium SDK
 author: Pier Paolo Ramon
 license: LGPL2.1
 copyright: Copyright (c) 2014 SMC Treviso s.r.l.

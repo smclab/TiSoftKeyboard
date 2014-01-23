@@ -10,4 +10,6 @@
 {
 }
 
++ (UIScrollViewKeyboardDismissMode)keyboardDismissModeFrom:(NSString *)name;
+
 @end

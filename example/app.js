@@ -1,39 +1,33 @@
-// This is a test harness for your module
-// You should do something interesting in this harness 
-// to test out the module and to provide instructions 
-// to users on how to use it by example.
 
+var softkeyboard = require('it.smc.softkeyboard');
 
-// open a single window
-var win = Ti.UI.createWindow({
-	backgroundColor:'white'
+var window = Ti.UI.createWindow({
+	//
 });
-var label = Ti.UI.createLabel();
-win.add(label);
-win.open();
 
-// TODO: write your module tests here
-var TiSoftKeyboard = require('it.smc.softkeyboard');
-Ti.API.info("module is => " + TiSoftKeyboard);
+// Support for ListView, TableView, ScrollView
 
-label.text = TiSoftKeyboard.example();
+var scrollView = Ti.UI.createScrollView({
+	top: 0,
+	right: 0,
+	bottom: 0,
+	left: 0,
+	//keyboardDismissalMode: 'none' // default
+	//keyboardDismissalMode: 'ondrag'
+	keyboardDismissMode: 'interactive'
+});
 
-Ti.API.info("module exampleProp is => " + TiSoftKeyboard.exampleProp);
-TiSoftKeyboard.exampleProp = "This is a test value";
+var textField = Ti.UI.createTextField({
+	value: 'hallo'
+});
 
-if (Ti.Platform.name == "android") {
-	var proxy = TiSoftKeyboard.createExample({
-		message: "Creating an example Proxy",
-		backgroundColor: "red",
-		width: 100,
-		height: 100,
-		top: 100,
-		left: 150
-	});
+window.add(scrollView);
+scrollView.add(textField);
 
-	proxy.printMessage("Hello world!");
-	proxy.message = "Hi world!.  It's me again.";
-	proxy.printMessage("Hello world!");
-	win.add(proxy);
+softkeyboard.addEventListener('keyboardshow', logInfo);
+softkeyboard.addEventListener('keyboardhide', logInfo);
+softkeyboard.addEventListener('keyboardhide', logInfo);
+
+function logInfo(event) {
+	Ti.API.error(event.keyboardWidth + 'x' + event.keyboardHeight);
 }
-

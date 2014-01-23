@@ -34,6 +34,8 @@ function logInfo(event) {
 Credits
 -------
 
+Kudos to @funkbit for its initial development of [TIKeyboardEvents](https://github.com/funkbit/TIKeyboardEvents).
+
 Humbly made by the spry ladies and gents at SMC.
 
 License

@@ -24,7 +24,7 @@ var softkeyboard = require('it.smc.softkeyboard');
 
 softkeyboard.addEventListener('keyboardshow', logInfo);
 softkeyboard.addEventListener('keyboardhide', logInfo);
-softkeyboard.addEventListener('keyboardhide', logInfo);
+softkeyboard.addEventListener('keyboardchange', logInfo);
 
 function logInfo(event) {
 	Ti.API.error(event.keyboardWidth + 'x' + event.keyboardHeight);

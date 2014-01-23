@@ -26,7 +26,7 @@ scrollView.add(textField);
 
 softkeyboard.addEventListener('keyboardshow', logInfo);
 softkeyboard.addEventListener('keyboardhide', logInfo);
-softkeyboard.addEventListener('keyboardhide', logInfo);
+softkeyboard.addEventListener('keyboardchange', logInfo);
 
 function logInfo(event) {
 	Ti.API.error(event.keyboardWidth + 'x' + event.keyboardHeight);

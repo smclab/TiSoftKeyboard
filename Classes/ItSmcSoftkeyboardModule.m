@@ -189,8 +189,6 @@
         name = [name lowercaseString];
     }
 
-    NSLog(@"[ERROR] Dismiss mode name NOW is %s", name);
-
     if ([name isEqualToString:@"none"])
     {
         return UIScrollViewKeyboardDismissModeNone;

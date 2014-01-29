@@ -1,7 +1,14 @@
 TiSoftKeyboard
-==========
+==============
+
+### [Download][rls] [Example][exm]
+
+[rls]: https://github.com/smclab/TiSoftKeyboard/releases
+[exm]: https://github.com/smclab/TiSoftKeyboard/tree/master/example
 
 Some missing soft keyboard events and features implemented! (iOS only)
+
+***Attention:*** if you want to mimic the interaction of the iMessage compose view, you should have a look at [TiDAKeyboardControl](https://github.com/smclab/TiDAKeyboardControl) which does exactly this!
 
 Keyboard dismiss (iOS 7)
 --------------------------

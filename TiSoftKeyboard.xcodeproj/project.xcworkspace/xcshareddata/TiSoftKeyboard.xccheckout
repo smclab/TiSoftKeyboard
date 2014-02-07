@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5B8D3A9A-5B94-42B6-940C-252861010F4F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TiSoftKeyboard</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9F5D7E3E-E981-4971-9D10-23132EB8BD6B</key>
+		<string>ssh://github.com/smclab/TiSoftKeyboard.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TiSoftKeyboard.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9F5D7E3E-E981-4971-9D10-23132EB8BD6B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/smclab/TiSoftKeyboard.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9F5D7E3E-E981-4971-9D10-23132EB8BD6B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9F5D7E3E-E981-4971-9D10-23132EB8BD6B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TiSoftKeyboard</string>
+		</dict>
+	</array>
+</dict>
+</plist>

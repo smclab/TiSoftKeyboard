@@ -44,9 +44,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "-setKeyboardDismissMode:"
-            landmarkType = "5">
+            endingLineNumber = "22">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

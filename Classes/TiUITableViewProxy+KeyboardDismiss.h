@@ -15,6 +15,10 @@
  * and licensed under the Apache Public License (version 2)
  */
 
+#ifdef USE_TI_UITABLEVIEW
+
 @interface TiUITableViewProxy (KeyboardDismiss)
 
 @end
+
+#endif

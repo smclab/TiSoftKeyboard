@@ -15,6 +15,8 @@
  * and licensed under the Apache Public License (version 2)
  */
 
+#ifdef USE_TI_UISCROLLVIEW
+
 #import "TiBase.h"
 #import "TiComplexValue.h"
 #import "ItSmcSoftkeyboardModule.h"
@@ -40,3 +42,5 @@
 
 
 @end
+
+#endif

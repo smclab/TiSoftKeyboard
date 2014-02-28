@@ -22,17 +22,17 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		24DD6CF91134B3F500162E58 /* ItSmcSoftkeyboardModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* ItSmcSoftkeyboardModule.h */; };
+		24DD6CF91134B3F500162E58 /* ItSmcSoftkeyboardModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* ItSmcSoftkeyboardModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24DD6CFA1134B3F500162E58 /* ItSmcSoftkeyboardModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ItSmcSoftkeyboardModule.m */; };
-		24DE9E1111C5FE74003F90F6 /* ItSmcSoftkeyboardModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ItSmcSoftkeyboardModuleAssets.h */; };
+		24DE9E1111C5FE74003F90F6 /* ItSmcSoftkeyboardModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ItSmcSoftkeyboardModuleAssets.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24DE9E1211C5FE74003F90F6 /* ItSmcSoftkeyboardModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ItSmcSoftkeyboardModuleAssets.m */; };
-		9624F72618915D570053F3CC /* TiUIListViewProxy+KeyboardDismiss.h in Headers */ = {isa = PBXBuildFile; fileRef = 9624F72418915D570053F3CC /* TiUIListViewProxy+KeyboardDismiss.h */; };
+		9624F72618915D570053F3CC /* TiUIListViewProxy+KeyboardDismiss.h in Headers */ = {isa = PBXBuildFile; fileRef = 9624F72418915D570053F3CC /* TiUIListViewProxy+KeyboardDismiss.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9624F72718915D570053F3CC /* TiUIListViewProxy+KeyboardDismiss.m in Sources */ = {isa = PBXBuildFile; fileRef = 9624F72518915D570053F3CC /* TiUIListViewProxy+KeyboardDismiss.m */; };
-		9624F72E189163AF0053F3CC /* TiUIScrollViewProxy+KeyboardDismiss.h in Headers */ = {isa = PBXBuildFile; fileRef = 9624F72C189163AF0053F3CC /* TiUIScrollViewProxy+KeyboardDismiss.h */; };
+		9624F72E189163AF0053F3CC /* TiUIScrollViewProxy+KeyboardDismiss.h in Headers */ = {isa = PBXBuildFile; fileRef = 9624F72C189163AF0053F3CC /* TiUIScrollViewProxy+KeyboardDismiss.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9624F72F189163AF0053F3CC /* TiUIScrollViewProxy+KeyboardDismiss.m in Sources */ = {isa = PBXBuildFile; fileRef = 9624F72D189163AF0053F3CC /* TiUIScrollViewProxy+KeyboardDismiss.m */; };
 		9624F7321891826B0053F3CC /* TiUITableViewProxy+KeyboardDismiss.m in Sources */ = {isa = PBXBuildFile; fileRef = 9624F7301891826B0053F3CC /* TiUITableViewProxy+KeyboardDismiss.m */; };
-		9624F7331891826B0053F3CC /* TiUITableViewProxy+KeyboardDismiss.h in Headers */ = {isa = PBXBuildFile; fileRef = 9624F7311891826B0053F3CC /* TiUITableViewProxy+KeyboardDismiss.h */; };
-		AA747D9F0F9514B9006C5449 /* ItSmcSoftkeyboard_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ItSmcSoftkeyboard_Prefix.pch */; };
+		9624F7331891826B0053F3CC /* TiUITableViewProxy+KeyboardDismiss.h in Headers */ = {isa = PBXBuildFile; fileRef = 9624F7311891826B0053F3CC /* TiUITableViewProxy+KeyboardDismiss.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA747D9F0F9514B9006C5449 /* ItSmcSoftkeyboard_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ItSmcSoftkeyboard_Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 

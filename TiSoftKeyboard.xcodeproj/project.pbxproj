@@ -113,8 +113,8 @@
 				9624F72518915D570053F3CC /* TiUIListViewProxy+KeyboardDismiss.m */,
 				9624F72C189163AF0053F3CC /* TiUIScrollViewProxy+KeyboardDismiss.h */,
 				9624F72D189163AF0053F3CC /* TiUIScrollViewProxy+KeyboardDismiss.m */,
-				9624F7301891826B0053F3CC /* TiUITableViewProxy+KeyboardDismiss.m */,
 				9624F7311891826B0053F3CC /* TiUITableViewProxy+KeyboardDismiss.h */,
+				9624F7301891826B0053F3CC /* TiUITableViewProxy+KeyboardDismiss.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";

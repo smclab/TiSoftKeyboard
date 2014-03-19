@@ -13,12 +13,12 @@ Some missing soft keyboard events and features implemented! (iOS only)
 
 To access this module from JavaScript, you would do the following:
 
-	var softkeyboard = require('it.smc.softkeyboard');
+	var Softkeyboard = require('it.smc.softkeyboard');
 
 The softKeyboard variable is a reference to the Module object.	
 
 ## Usage
-####Keyboard dismiss (iOS 7)
+###Keyboard dismiss (iOS 7)
 ```js
 // Support for ListView, TableView, ScrollView
 
@@ -28,13 +28,13 @@ var scrollView = Ti.UI.createScrollView({
 	keyboardDismissMode: 'interactive'
 });
 ```
-####Events
+###Events
 
 ```js
 
-softkeyboard.addEventListener('keyboardshow', logInfo);
-softkeyboard.addEventListener('keyboardhide', logInfo);
-softkeyboard.addEventListener('keyboardchange', logInfo);
+Softkeyboard.addEventListener('keyboardshow', logInfo);
+Softkeyboard.addEventListener('keyboardhide', logInfo);
+Softkeyboard.addEventListener('keyboardchange', logInfo);
 
 function logInfo(event) {
 	Ti.API.error(event.keyboardWidth + 'x' + event.keyboardHeight);

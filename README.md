@@ -1,14 +1,39 @@
 TiSoftKeyboard
 ==============
 
-### [Download][rls] [Example][exm]
+[![Built for Titanium SDK][ti-badge]][ti]
+[![Available through gitTio][gittio-badge]][gittio-page]
 
-[rls]: https://github.com/smclab/TiSoftKeyboard/releases
-[exm]: https://github.com/smclab/TiSoftKeyboard/tree/master/example
+[ti-badge]: http://www-static.appcelerator.com/badges/titanium-git-badge-sq.png
+[ti]: http://www.appcelerator.com/titanium/
+[gittio-badge]: http://gitt.io/badge.png
+[gittio-page]: http://gitt.io/component/it.smc.softkeyboard
 
 Some missing soft keyboard events and features implemented! (iOS only)
 
 ***Attention:*** if you want to mimic the interaction of the iMessage compose view, you should have a look at [TiDAKeyboardControl](https://github.com/smclab/TiDAKeyboardControl) which does exactly this!
+
+### Installation
+
+You can install this module using [gitTio][gittio-cli] with
+
+    gittio install it.smc.softkeyboard
+
+Alternatively you can [download a specific release][rls] for manual installation.
+
+[rls]: https://github.com/smclab/TiSoftKeyboard/releases
+[gittio-cli]: http://gitt.io/cli
+
+### Example
+
+You can run the example running the following command
+
+    gittio demo it.smc.softkeyboard
+
+The source for this demo application can be found in [the `example` folder][exm].
+
+[exm]: https://github.com/smclab/TiSoftKeyboard/tree/master/example
+
 
 Keyboard dismiss (iOS 7)
 --------------------------

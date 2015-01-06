@@ -2,7 +2,7 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 1.0.0
+version: 1.1.0
 apiversion: 2
 description: TiSoftKeyboard enables some important soft keyboard features currently missing from Titanium SDK
 author: Pier Paolo Ramon
@@ -16,3 +16,4 @@ moduleid: it.smc.softkeyboard
 guid: ee1a0dab-a991-49b6-aeac-3a915abc610c
 platform: iphone
 minsdk: 3.2.0.GA
+architectures: armv7 i386 x86_64 arm64
